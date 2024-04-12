@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px;
+    min-height: 1000px;
+}
+.tabel{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabel thead{
+    border-bottom:  2px solid #fff;
+    margin-bottom: 20px;
+}
+ .tabel th{
+    font-size:1.2rem ;
+    text-align: left;
+    padding: 10px 0;
+}
+.tabel body tr{
+    height: 89x;
+    border-bottom:1px solid #22262e ;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+.symbol{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.symbol img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.symbol span{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #9fa6b7;
+}
+.success{
+    color: #57bc7c;
+}
+.error{
+    color:#d33636;
+}
+@media (max-width:600px) {
+    .tabel{
+        display: block;
+        overflow-x:scroll ;
+    }
+    .tabel td,
+    .tabel th{
+        padding: 0,10px;
+    }
+    
+}
